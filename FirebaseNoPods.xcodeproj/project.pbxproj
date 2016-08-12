@@ -12,6 +12,11 @@
 		3F62CCE91D5DC64400F9A22E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F62CCE71D5DC64400F9A22E /* Main.storyboard */; };
 		3F62CCEB1D5DC64400F9A22E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F62CCEA1D5DC64400F9A22E /* Assets.xcassets */; };
 		3F62CCEE1D5DC64400F9A22E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F62CCEC1D5DC64400F9A22E /* LaunchScreen.storyboard */; };
+		3F62CD071D5DC98900F9A22E /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F62CD021D5DC98900F9A22E /* FirebaseAnalytics.framework */; };
+		3F62CD081D5DC98900F9A22E /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F62CD031D5DC98900F9A22E /* FirebaseInstanceID.framework */; };
+		3F62CD091D5DC98900F9A22E /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F62CD041D5DC98900F9A22E /* GoogleInterchangeUtilities.framework */; };
+		3F62CD0A1D5DC98900F9A22E /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F62CD051D5DC98900F9A22E /* GoogleSymbolUtilities.framework */; };
+		3F62CD0B1D5DC98900F9A22E /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F62CD061D5DC98900F9A22E /* GoogleUtilities.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		3F62CCEA1D5DC64400F9A22E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F62CCED1D5DC64400F9A22E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F62CCEF1D5DC64400F9A22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F62CD021D5DC98900F9A22E /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Firebase/Analytics/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		3F62CD031D5DC98900F9A22E /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Firebase/Analytics/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		3F62CD041D5DC98900F9A22E /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Firebase/Analytics/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		3F62CD051D5DC98900F9A22E /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Firebase/Analytics/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		3F62CD061D5DC98900F9A22E /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Firebase/Analytics/GoogleUtilities.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F62CD071D5DC98900F9A22E /* FirebaseAnalytics.framework in Frameworks */,
+				3F62CD081D5DC98900F9A22E /* FirebaseInstanceID.framework in Frameworks */,
+				3F62CD091D5DC98900F9A22E /* GoogleInterchangeUtilities.framework in Frameworks */,
+				3F62CD0A1D5DC98900F9A22E /* GoogleSymbolUtilities.framework in Frameworks */,
+				3F62CD0B1D5DC98900F9A22E /* GoogleUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +53,7 @@
 		3F62CCD71D5DC64400F9A22E = {
 			isa = PBXGroup;
 			children = (
+				3F62CD001D5DC8C400F9A22E /* Frameworks */,
 				3F62CCE21D5DC64400F9A22E /* FirebaseNoPods */,
 				3F62CCE11D5DC64400F9A22E /* Products */,
 			);
@@ -62,6 +78,34 @@
 				3F62CCEF1D5DC64400F9A22E /* Info.plist */,
 			);
 			path = FirebaseNoPods;
+			sourceTree = "<group>";
+		};
+		3F62CCFF1D5DC8BB00F9A22E /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				3F62CD021D5DC98900F9A22E /* FirebaseAnalytics.framework */,
+				3F62CD031D5DC98900F9A22E /* FirebaseInstanceID.framework */,
+				3F62CD041D5DC98900F9A22E /* GoogleInterchangeUtilities.framework */,
+				3F62CD051D5DC98900F9A22E /* GoogleSymbolUtilities.framework */,
+				3F62CD061D5DC98900F9A22E /* GoogleUtilities.framework */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		3F62CD001D5DC8C400F9A22E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F62CD011D5DC8D900F9A22E /* Firebase */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F62CD011D5DC8D900F9A22E /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				3F62CCFF1D5DC8BB00F9A22E /* Analytics */,
+			);
+			name = Firebase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +295,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Firebase/Analytics",
+				);
 				INFOPLIST_FILE = FirebaseNoPods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mokacoding.FirebaseNoPods;
@@ -262,6 +310,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Firebase/Analytics",
+				);
 				INFOPLIST_FILE = FirebaseNoPods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mokacoding.FirebaseNoPods;
