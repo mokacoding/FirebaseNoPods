@@ -33,6 +33,7 @@
 		3F62CD051D5DC98900F9A22E /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Firebase/Analytics/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		3F62CD061D5DC98900F9A22E /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Firebase/Analytics/GoogleUtilities.framework; sourceTree = "<group>"; };
 		3F62CD0C1D5DCA0200F9A22E /* FirebaseNoPods-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirebaseNoPods-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F62CD101D5DCB1200F9A22E /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Firebase/Firebase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 		3F62CD011D5DC8D900F9A22E /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				3F62CD101D5DCB1200F9A22E /* Firebase.h */,
 				3F62CCFF1D5DC8BB00F9A22E /* Analytics */,
 			);
 			name = Firebase;
