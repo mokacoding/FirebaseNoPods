@@ -306,6 +306,7 @@
 				);
 				INFOPLIST_FILE = FirebaseNoPods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mokacoding.FirebaseNoPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FirebaseNoPods/FirebaseNoPods-Bridging-Header.h";
@@ -324,6 +325,7 @@
 				);
 				INFOPLIST_FILE = FirebaseNoPods/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mokacoding.FirebaseNoPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FirebaseNoPods/FirebaseNoPods-Bridging-Header.h";
