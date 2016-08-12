@@ -17,6 +17,7 @@
 		3F62CD091D5DC98900F9A22E /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F62CD041D5DC98900F9A22E /* GoogleInterchangeUtilities.framework */; };
 		3F62CD0A1D5DC98900F9A22E /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F62CD051D5DC98900F9A22E /* GoogleSymbolUtilities.framework */; };
 		3F62CD0B1D5DC98900F9A22E /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F62CD061D5DC98900F9A22E /* GoogleUtilities.framework */; };
+		3F62CD131D5DCDD900F9A22E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F62CD121D5DCDD900F9A22E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		3F62CD0C1D5DCA0200F9A22E /* FirebaseNoPods-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirebaseNoPods-Bridging-Header.h"; sourceTree = "<group>"; };
 		3F62CD101D5DCB1200F9A22E /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Firebase/Firebase.h; sourceTree = "<group>"; };
 		3F62CD111D5DCBEA00F9A22E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Firebase/module.modulemap; sourceTree = "<group>"; };
+		3F62CD121D5DCDD900F9A22E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Firebase/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		3F62CD011D5DC8D900F9A22E /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				3F62CD121D5DCDD900F9A22E /* GoogleService-Info.plist */,
 				3F62CD101D5DCB1200F9A22E /* Firebase.h */,
 				3F62CD111D5DCBEA00F9A22E /* module.modulemap */,
 				3F62CCFF1D5DC8BB00F9A22E /* Analytics */,
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F62CCEE1D5DC64400F9A22E /* LaunchScreen.storyboard in Resources */,
+				3F62CD131D5DCDD900F9A22E /* GoogleService-Info.plist in Resources */,
 				3F62CCEB1D5DC64400F9A22E /* Assets.xcassets in Resources */,
 				3F62CCE91D5DC64400F9A22E /* Main.storyboard in Resources */,
 			);
