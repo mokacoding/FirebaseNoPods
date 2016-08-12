@@ -34,6 +34,7 @@
 		3F62CD061D5DC98900F9A22E /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Firebase/Analytics/GoogleUtilities.framework; sourceTree = "<group>"; };
 		3F62CD0C1D5DCA0200F9A22E /* FirebaseNoPods-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirebaseNoPods-Bridging-Header.h"; sourceTree = "<group>"; };
 		3F62CD101D5DCB1200F9A22E /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Firebase/Firebase.h; sourceTree = "<group>"; };
+		3F62CD111D5DCBEA00F9A22E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = Firebase/module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				3F62CD101D5DCB1200F9A22E /* Firebase.h */,
+				3F62CD111D5DCBEA00F9A22E /* module.modulemap */,
 				3F62CCFF1D5DC8BB00F9A22E /* Analytics */,
 			);
 			name = Firebase;
@@ -311,6 +313,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FirebaseNoPods/FirebaseNoPods-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Firebase";
 			};
 			name = Debug;
 		};
@@ -329,6 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mokacoding.FirebaseNoPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "FirebaseNoPods/FirebaseNoPods-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Firebase";
 			};
 			name = Release;
 		};
